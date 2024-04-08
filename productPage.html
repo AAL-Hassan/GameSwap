@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameSwap Hogwarts Legacy</title>
+    <link href="style4.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+          <a href="index.html" class="nav-branding">GameSwap</a>
+    
+          <ul class="nav-menu">
+              <li class="nav-item">
+                  <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a href="GMBenchmarks.html" class="nav-link">Games</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link">Consoles</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link">Accessories</a>
+              </li>
+              <li class="nav-item">
+                  <a href="Support.html" class="nav-link">Support</a>
+              </li>
+          </ul>
+          
+          <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </div>
+    
+        </nav>
+    </header>
+
+    <div class="product-container">
+        <div class="product-image">
+            <img src="https://cdn2.steamgriddb.com/file/sgdb-cdn/thumb/6958fb48f54ae34eb0a141733386dc8f.jpg" alt="Game Image">
+        </div>
+        <div class="product-details">
+            <div class="product-title">Hogwarts Legacy</div>
+            <div class="product-description">
+                Hogwarts Legacy is an immersive, open-world action RPG set in the world first introduced in the Harry Potter books. For the first time, experience Hogwarts in the 1800s. Your character is a student who holds the key to an ancient secret that threatens to tear the wizarding world apart. Now you can take control of the action and be at the center of your own adventure in the wizarding world. Your legacy is what you make of it.
+            </div>
+            <div class="product-price">£49.99</div>
+            <button class="buy-button" onclick="buyGame('Hogwarts Legacy', 49.99)">Buy Now</button>
+        </div>
+    </div>
+
+    <script>
+        function buyGame(gameTitle, price) {
+            // Redirect to another webpage, for example, a checkout page
+            window.location.href = 'https://buy.stripe.com/test_7sI2bf74mfUN0k89AA';
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
